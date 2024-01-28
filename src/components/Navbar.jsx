@@ -28,21 +28,8 @@ const Navbar = () => {
             <span className="sm:block hidden"> | Software Engineer </span>
           </p>
         </Link>
-        {/* <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map((Link) => (
-            <li
-              key={Link.id}
-              className={`${
-                active === Link.title ? "text-white" : "text-secondary"
-              }hover:text-white text-[18px] font-medium cursor-pointer
-              
-                `}
-            >
-              <a href={`#${Link.id}`}>{Link.title}</a>
-            </li>
-          ))}
-        </ul> wrong */}
-        {/* <ul className="list-none hidden sm:flex flex-row gap-10">
+
+        <ul className="list-none hidden sm:flex flex-row gap-10">
           {navLinks.map((nav) => (
             <li
               key={nav.id}
@@ -54,19 +41,7 @@ const Navbar = () => {
               <a href={`#${nav.id}`}>{nav.title}</a>
             </li>
           ))}
-        </ul> RIGHT */}
-        {/* <ul className="list-none hidden sm:flex flex-row gap-10">
-          {navLinks.map(({ id, title }) => (
-            <li
-              key={id}
-              className={`${
-                active === title ? "text-red-500" : "text-secondary"
-              } hover:text-white text-[18px] font-medium cursor-pointer`}
-            >
-              <a href={`#${id}`}>{title}</a>
-            </li>
-          ))}
-        </ul> RIGHT */}
+        </ul>
       </div>
     </nav>
   );
