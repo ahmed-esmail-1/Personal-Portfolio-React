@@ -1,3 +1,4 @@
+<!--  -->
 npm create vite@latest ./ -- --template react
 
 npm install -D tailwindcss
@@ -9,3 +10,4 @@ npm install --legacy-peer-deps @react-three/fiber @react-three/drei maath react-
 npm install --legacy-peer-deps -D postcss autoprefixer
 
 npx tailwindcss init -p
+
