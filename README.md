@@ -11,3 +11,6 @@ npm install --legacy-peer-deps -D postcss autoprefixer
 
 npx tailwindcss init -p
 
+<!-- For Computer 3D image -->
+npm install --legacy-peer-deps three <!-- Didn't work-->
+npm install three@latest @react-three/drei@latest <!-- This one worked -->
