@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  bot,
 } from "../assets";
 
 export const navLinks = [
@@ -155,9 +156,9 @@ const experiences = [
     ],
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "Software Engineer",
+    company_name: "BOT Solutions",
+    icon: bot,
     iconBg: "#E6DEDD",
     date: "Jan 2023 - Present",
     points: [
