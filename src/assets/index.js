@@ -31,6 +31,7 @@ import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
 import bot from "./company/bot.jpeg";
+import mrasim from "./company/mrasim.png";
 
 export {
   logo,
@@ -62,4 +63,5 @@ export {
   jobit,
   tripguide,
   bot,
+  mrasim,
 };

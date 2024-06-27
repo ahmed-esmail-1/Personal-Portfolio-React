@@ -24,6 +24,7 @@ import {
   tripguide,
   threejs,
   bot,
+  mrasim,
 } from "../assets";
 
 export const navLinks = [
@@ -143,16 +144,17 @@ const experiences = [
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
+    title: "Software Developer",
+    company_name: "Mrasim",
+    icon: mrasim,
     iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    date: "Sep 2023 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Developed and implemented innovative web applications using <strong>Laravel</strong> and <strong>Vue.js</strong>, resulting in a 20% increase in user engagement.",
+      "Developed and implemented a streamlined deployment process using <strong>Azure DevOps</strong> Server, resulting in a 30% reduction in deployment time.",
+      "Utilized <strong>ASP.NET MVC</strong> to design and develop user-friendly interfaces for web applications, leading to a 40% increase in user engagement and an average session duration of over 5 minutes.",
+      "Managed <strong>MySQL</strong> databases and implemented efficient data models to support web applications.",
+      "Configured and managed web hosting environments using <strong>cPanel</strong>, ensuring reliable operation and security.",
     ],
   },
   {
@@ -160,12 +162,12 @@ const experiences = [
     company_name: "BOT Solutions",
     icon: bot,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Aug 2022 - Oct 2022",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "Created comprehensive class and use case diagrams for a project proposal, accurately capturing requirements and facilitating effective planning, resulting in a 20% reduction in development time.",
+      "Conducted rigorous testing of a web-based system using industry best practices, resulting in a 15% decrease in system bugs and improved overall system quality.",
+      "Implemented cutting-edge ERP and CRM systems to streamline internal processes and enhance customer relationship management, resulting in a 25% boost in operational efficiency and a 12% increase in customer retention rates.",
+      "Collaborated with cross-functional teams to design detailed Software Requirements Documents (SRS) and actively participated in client meetings to ensure clear project scope and requirements, leading to a 10% increase in project success rate and client satisfaction.",
     ],
   },
 ];
