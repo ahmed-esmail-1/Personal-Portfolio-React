@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { fadeIn, textVariant } from "../utils/motion";
 import { styles } from "../style";
+import { SectionWrapper } from "../hoc";
 
 const Works = () => {
   return (
@@ -14,4 +15,5 @@ const Works = () => {
   );
 };
 
-export default Works;
+// "" You put ID here:-
+export default SectionWrapper(Works, "");
