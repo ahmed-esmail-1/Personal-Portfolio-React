@@ -16,3 +16,7 @@ npm install --legacy-peer-deps three <!-- Didn't work-->
 npm install three@latest @react-three/drei@latest <!-- This one worked -->
 
 <!-- And I commited the .env on purpose, I mean whoops.. -->
+
+<!-- To manage head -->
+npm install react-helmet  
+
