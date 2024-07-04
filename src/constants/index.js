@@ -27,6 +27,10 @@ import {
   mrasim,
   vue,
   laravel,
+  expense,
+  weather,
+  todo,
+  jobs,
 } from "../assets";
 
 export const navLinks = [
@@ -211,67 +215,97 @@ const testimonials = [
 
 const projects = [
   {
-    name: "Car Rent",
-    description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+    name: "Expense Tracker",
+    description: "Expense-Tracker in ASP .NET Core MVC",
     tags: [
       {
-        name: "react",
+        name: "C#",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
+        name: ".NET",
         color: "green-text-gradient",
       },
       {
-        name: "tailwind",
+        name: "CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: expense,
+    source_code_link: "https://github.com/ahmed-esmail-1/Expense-Tracker",
+  },
+  {
+    name: "Weather App",
+    description: "As crazy as it seems.",
+    tags: [
+      {
+        name: "Vue",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
         color: "pink-text-gradient",
       },
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: weather,
+    source_code_link: "https://github.com/ahmed-esmail-1/weather-app",
   },
   {
-    name: "Job IT",
-    description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+    name: "To Do App",
+    description: "You gotta start somewhere.",
     tags: [
       {
-        name: "react",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "restapi",
+        name: "Vue",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
         color: "pink-text-gradient",
-      },
-    ],
-    image: jobit,
-    source_code_link: "https://github.com/",
-  },
-  {
-    name: "Trip Guide",
-    description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-    tags: [
-      {
-        name: "nextjs",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "supabase",
-        color: "green-text-gradient",
       },
       {
         name: "css",
-        color: "pink-text-gradient",
+        color: "green-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: todo,
+    source_code_link: "https://github.com/ahmed-esmail-1/Todo-app",
+  },
+  {
+    name: "Job Listing Platform",
+    description: "You gotta start somewhere.",
+    tags: [
+      {
+        name: "Vue",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "css",
+        color: "green-text-gradient",
+      },
+    ],
+    image: jobs,
+    source_code_link:
+      "https://github.com/ahmed-esmail-1/Job-Listing-App-Laravel",
   },
 ];
 

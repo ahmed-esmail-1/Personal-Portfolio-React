@@ -31,6 +31,10 @@ import tesla from "./company/tesla.png";
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
+import expense from "./expense.png";
+import weather from "./weather.png";
+import todo from "./todo.png";
+import jobs from "./jobs.png";
 
 import bot from "./company/bot.jpeg";
 import mrasim from "./company/mrasim.png";
@@ -68,4 +72,8 @@ export {
   mrasim,
   vue,
   laravel,
+  expense,
+  weather,
+  todo,
+  jobs,
 };
