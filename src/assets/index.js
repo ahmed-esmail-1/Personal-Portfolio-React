@@ -41,6 +41,10 @@ import jobs from "./jobs.png";
 import landingPage from "./landingPage.png";
 import portfolio from "./portfolio.png";
 
+import navIcon1 from "./social/nav-icon1.svg";
+import navIcon2 from "./social/nav-icon2.svg"; // Updated icon URL
+import navIcon3 from "./social/nav-icon3.svg";
+
 export {
   logo,
   backend,
@@ -81,4 +85,7 @@ export {
   wasm,
   landingPage,
   portfolio,
+  navIcon1,
+  navIcon2,
+  navIcon3,
 };

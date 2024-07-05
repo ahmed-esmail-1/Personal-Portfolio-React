@@ -134,32 +134,6 @@ const technologies = [
 ];
 
 const experiences = [
-  // {
-  //   title: "React.js Developer",
-  //   company_name: "Starbucks",
-  //   icon: starbucks,
-  //   iconBg: "#383E56",
-  //   date: "March 2020 - April 2021",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
-  // {
-  //   title: "React Native Developer",
-  //   company_name: "Tesla",
-  //   icon: tesla,
-  //   iconBg: "#E6DEDD",
-  //   date: "Jan 2021 - Feb 2022",
-  //   points: [
-  //     "Developing and maintaining web applications using React.js and other related technologies.",
-  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-  //     "Implementing responsive design and ensuring cross-browser compatibility.",
-  //     "Participating in code reviews and providing constructive feedback to other developers.",
-  //   ],
-  // },
   {
     title: "Software Developer",
     company_name: "Mrasim",
@@ -169,7 +143,6 @@ const experiences = [
     points: [
       "Developed and implemented innovative web applications using <strong>Laravel</strong> and <strong>Vue.js</strong>, resulting in a 20% increase in user engagement.",
       "Developed and implemented a streamlined deployment process using <strong>Azure DevOps</strong> Server, resulting in a 30% reduction in deployment time.",
-      "Utilized <strong>ASP.NET MVC</strong> to design and develop user-friendly interfaces for web applications, leading to a 40% increase in user engagement and an average session duration of over 5 minutes.",
       "Managed <strong>MySQL</strong> databases and implemented efficient data models to support web applications.",
       "Configured and managed web hosting environments using <strong>cPanel</strong>, ensuring reliable operation and security.",
     ],
@@ -181,11 +154,9 @@ const experiences = [
     iconBg: "#136E85",
     date: "Oct 2023 - Jan 2024",
     points: [
-      "Developed and implemented innovative web applications using <strong>Laravel</strong> and <strong>Vue.js</strong>, resulting in a 20% increase in user engagement.",
-      "Developed and implemented a streamlined deployment process using <strong>Azure DevOps</strong> Server, resulting in a 30% reduction in deployment time.",
       "Utilized <strong>ASP.NET MVC</strong> to design and develop user-friendly interfaces for web applications, leading to a 40% increase in user engagement and an average session duration of over 5 minutes.",
-      "Managed <strong>MySQL</strong> databases and implemented efficient data models to support web applications.",
-      "Configured and managed web hosting environments using <strong>cPanel</strong>, ensuring reliable operation and security.",
+
+      "Worked with Azure DevOps Server, gaining expertise in its features and optimizing the deployment process to achieve a significant reduction in deployment time.",
     ],
   },
   {
