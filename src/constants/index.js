@@ -31,6 +31,7 @@ import {
   weather,
   todo,
   jobs,
+  wasm,
 } from "../assets";
 
 export const navLinks = [
@@ -172,6 +173,20 @@ const experiences = [
     ],
   },
   {
+    title: ".NET Developer",
+    company_name: "WasmCSR",
+    icon: wasm,
+    iconBg: "#136E85",
+    date: "Oct 2023 - Jan 2024",
+    points: [
+      "Developed and implemented innovative web applications using <strong>Laravel</strong> and <strong>Vue.js</strong>, resulting in a 20% increase in user engagement.",
+      "Developed and implemented a streamlined deployment process using <strong>Azure DevOps</strong> Server, resulting in a 30% reduction in deployment time.",
+      "Utilized <strong>ASP.NET MVC</strong> to design and develop user-friendly interfaces for web applications, leading to a 40% increase in user engagement and an average session duration of over 5 minutes.",
+      "Managed <strong>MySQL</strong> databases and implemented efficient data models to support web applications.",
+      "Configured and managed web hosting environments using <strong>cPanel</strong>, ensuring reliable operation and security.",
+    ],
+  },
+  {
     title: "Software Engineer",
     company_name: "BOT Solutions",
     icon: bot,
@@ -284,23 +299,20 @@ const projects = [
   },
   {
     name: "Job Listing Platform",
-    description: "You gotta start somewhere.",
+    description:
+      "A robust web application built with Laravel and PHP, connecting job seekers and employers efficiently. Features include job posting, advanced search filters, and user-friendly dashboards for seamless job management and application processes.",
     tags: [
       {
-        name: "Vue",
+        name: "PHP",
         color: "green-text-gradient",
       },
       {
-        name: "HTML",
+        name: "Laravel",
         color: "blue-text-gradient",
       },
       {
-        name: "JS",
+        name: "Blade",
         color: "pink-text-gradient",
-      },
-      {
-        name: "css",
-        color: "green-text-gradient",
       },
     ],
     image: jobs,

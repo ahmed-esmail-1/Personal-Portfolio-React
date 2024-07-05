@@ -27,6 +27,9 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
+import bot from "./company/bot.jpeg";
+import mrasim from "./company/mrasim.png";
+import wasm from "./company/wasm.png";
 
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
@@ -35,9 +38,6 @@ import expense from "./expense.png";
 import weather from "./weather.png";
 import todo from "./todo.png";
 import jobs from "./jobs.png";
-
-import bot from "./company/bot.jpeg";
-import mrasim from "./company/mrasim.png";
 
 export {
   logo,
@@ -76,4 +76,5 @@ export {
   weather,
   todo,
   jobs,
+  wasm,
 };
