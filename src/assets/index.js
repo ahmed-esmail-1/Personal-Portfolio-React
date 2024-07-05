@@ -38,6 +38,8 @@ import expense from "./expense.png";
 import weather from "./weather.png";
 import todo from "./todo.png";
 import jobs from "./jobs.png";
+import landingPage from "./landingPage.png";
+import portfolio from "./portfolio.png";
 
 export {
   logo,
@@ -77,4 +79,6 @@ export {
   todo,
   jobs,
   wasm,
+  landingPage,
+  portfolio,
 };

@@ -32,6 +32,8 @@ import {
   todo,
   jobs,
   wasm,
+  landingPage,
+  portfolio,
 } from "../assets";
 
 export const navLinks = [
@@ -230,6 +232,49 @@ const testimonials = [
 
 const projects = [
   {
+    name: "Job Listing Platform",
+    description:
+      "A robust web application built with Laravel and PHP, connecting job seekers and employers efficiently. Features include job posting, advanced search filters, and user-friendly dashboards for seamless job management and application processes.",
+    tags: [
+      {
+        name: "PHP",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Laravel",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Blade",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: jobs,
+    source_code_link:
+      "https://github.com/ahmed-esmail-1/Job-Listing-App-Laravel",
+  },
+  {
+    name: "First Personal Portfolio",
+    description:
+      "A React-based portfolio showcasing my skills, projects, and experience as a Full-Stack Developer. Highlights include a user-friendly interface with sections for home, skills, projects, and contact information.",
+    tags: [
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "HTML",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "CSS",
+        color: "green-text-gradient",
+      },
+    ],
+    image: portfolio,
+    source_code_link: "https://github.com/ahmed-esmail-1/personal-portfolio",
+  },
+  {
     name: "Expense Tracker",
     description: "Expense-Tracker in ASP .NET Core MVC",
     tags: [
@@ -252,6 +297,22 @@ const projects = [
     ],
     image: expense,
     source_code_link: "https://github.com/ahmed-esmail-1/Expense-Tracker",
+  },
+  {
+    name: "Landing Page",
+    description: "Just HTML and Tailwind.",
+    tags: [
+      {
+        name: "HTML",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Tailwind",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: landingPage,
+    source_code_link: "https://github.com/ahmed-esmail-1/Landing-Page-Tailwind",
   },
   {
     name: "Weather App",
@@ -296,28 +357,6 @@ const projects = [
     ],
     image: todo,
     source_code_link: "https://github.com/ahmed-esmail-1/Todo-app",
-  },
-  {
-    name: "Job Listing Platform",
-    description:
-      "A robust web application built with Laravel and PHP, connecting job seekers and employers efficiently. Features include job posting, advanced search filters, and user-friendly dashboards for seamless job management and application processes.",
-    tags: [
-      {
-        name: "PHP",
-        color: "green-text-gradient",
-      },
-      {
-        name: "Laravel",
-        color: "blue-text-gradient",
-      },
-      {
-        name: "Blade",
-        color: "pink-text-gradient",
-      },
-    ],
-    image: jobs,
-    source_code_link:
-      "https://github.com/ahmed-esmail-1/Job-Listing-App-Laravel",
   },
 ];
 
