@@ -97,9 +97,10 @@ const Navbar = () => {
         <span className="navbar-text mx-auto sm:hidden">
           <div style={socialIconStyles} className="social-icon">
             <a
-              href="https://www.linkedin.com/in/ahmedesmailofficial/"
+              href="https://www.linkedin.com/in/ahmedesmailofficial"
               target="_blank"
               style={socialIconLinkStyles}
+              className="transform transition-transform duration-300 hover:scale-110"
             >
               <img src={navIcon1} alt="LinkedIn" style={socialIconImgStyles} />
               <span style={socialIconBeforeStyles}></span>
@@ -108,16 +109,9 @@ const Navbar = () => {
               href="https://github.com/ahmed-esmail-1"
               target="_blank"
               style={socialIconLinkStyles}
+              className="transform transition-transform duration-300 hover:scale-110"
             >
               <img src={navIcon2} alt="GitHub" style={socialIconImgStyles} />
-              <span style={socialIconBeforeStyles}></span>
-            </a>
-            <a
-              href="https://www.instagram.com/crit_x/"
-              target="_blank"
-              style={socialIconLinkStyles}
-            >
-              <img src={navIcon3} alt="Instagram" style={socialIconImgStyles} />
               <span style={socialIconBeforeStyles}></span>
             </a>
           </div>
