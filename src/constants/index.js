@@ -141,24 +141,27 @@ const experiences = [
     iconBg: "#383E56",
     date: "Sep 2023 - Present",
     points: [
-      "Developed and implemented innovative web applications using <strong>Laravel</strong> and <strong>Vue.js</strong>, resulting in a 20% increase in user engagement.",
-      "Developed and implemented a streamlined deployment process using <strong>Azure DevOps</strong> Server, resulting in a 30% reduction in deployment time.",
-      "Managed <strong>MySQL</strong> databases and implemented efficient data models to support web applications.",
-      "Configured and managed web hosting environments using <strong>cPanel</strong>, ensuring reliable operation and security.",
+      "Developed a <strong>web platform</strong> named Numo for charities, supporting over 50 institutions live.",
+      "Implemented <strong>multi-tenancy</strong> using <strong>Laravel</strong>, incorporating Eloquent ORM, Blade templating, and <strong>RESTful API</strong> design and implementation.",
+      "Integrated various payment gateways including <strong>Moyasar</strong>, <strong>Urway</strong>, <strong>MyFatoorah</strong>, <strong>Hyperpay</strong>, and <strong>PayTabs</strong>.",
+      "Utilized <strong>Vue.js</strong>  for front-end development and <strong>Tailwind CSS</strong> for styling.",
+      "Designed and managed <strong>MySQL</strong> databases, including migrating legacy data and optimizing tables, schemas, and structures.",
+      "Employed Git for version control and <strong>Azure DevOps</strong> for deployment, <strong>pipelines, and releases</strong>.",
+      "Used <strong>Postman</strong> for API testing and <strong>cPanel</strong> for server management and configuration.",
     ],
   },
-  {
-    title: ".NET Developer",
-    company_name: "WasmCSR",
-    icon: wasm,
-    iconBg: "#136E85",
-    date: "Oct 2023 - Jan 2024",
-    points: [
-      "Utilized <strong>ASP.NET MVC</strong> to design and develop user-friendly interfaces for web applications, leading to a 40% increase in user engagement and an average session duration of over 5 minutes.",
+  // {
+  //   title: ".NET Developer",
+  //   company_name: "WasmCSR",
+  //   icon: wasm,
+  //   iconBg: "#136E85",
+  //   date: "Oct 2023 - Jan 2024",
+  //   points: [
+  //     "Utilized <strong>ASP.NET MVC</strong> to design and develop user-friendly interfaces for web applications, leading to a 40% increase in user engagement and an average session duration of over 5 minutes.",
 
-      "Worked with Azure DevOps Server, gaining expertise in its features and optimizing the deployment process to achieve a significant reduction in deployment time.",
-    ],
-  },
+  //     "Worked with Azure DevOps Server, gaining expertise in its features and optimizing the deployment process to achieve a significant reduction in deployment time.",
+  //   ],
+  // },
   {
     title: "Software Engineer",
     company_name: "BOT Solutions",

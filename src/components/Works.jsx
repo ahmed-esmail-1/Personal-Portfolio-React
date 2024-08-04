@@ -17,7 +17,7 @@ const ProjectCard = ({
 }) => {
   return (
     <motion.div
-      className="mx-auto"
+      className="mx-auto bg-tertiary"
       variants={fadeIn("up", "spring", index * 0.5, 0.75)}
     >
       <Tilt
@@ -26,7 +26,7 @@ const ProjectCard = ({
           scale: 1,
           speed: 450,
         }}
-        className="bg-tertiary p-5 rounded-2xl sm:w-[360px] w-full"
+        className=" p-5 rounded-2xl sm:w-[360px] w-full"
       >
         <div className="relative w-full h-[230px]">
           <img
